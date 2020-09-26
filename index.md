@@ -35,7 +35,7 @@ element MVLEM-3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {W
 
 Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM-3D.
 
-![TUB](https://user-images.githubusercontent.com/53920372/94061732-a009a900-fd9a-11ea-8d28-2ae4981326f6.JPG)
+![MVLEM-3D-TUB](https://user-images.githubusercontent.com/53920372/94331607-ad818780-ff82-11ea-8163-fa8108a2f7e0.PNG)
 **Figure 2: MVLEM-3D Model of specimen TUB**
 
 ## References
