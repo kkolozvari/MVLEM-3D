@@ -28,7 +28,7 @@ element MVLEM-3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {W
 | tMod	| thickness modifier for out-of-plane bending (optional, default = 1.0)|
 | Nu | Poisson ratio for out-of-plane bending (optional, default = 0.25)|
 
-![Model_Formulation](https://user-images.githubusercontent.com/53920372/94061362-21147080-fd9a-11ea-8a73-f325dc96206a.JPG)
+![MVLEM-3D](https://user-images.githubusercontent.com/53920372/94331495-b6be2480-ff81-11ea-916b-949cd5b112e4.PNG)
 **Figure 1: MVLEM-3D Element Formulation**
 
 ## Example
