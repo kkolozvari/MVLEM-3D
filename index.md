@@ -9,8 +9,8 @@ The MVLEM-3D model is an extension of the two-dimensional, two-node Multiple-Ver
 
 ### MVLEM-3D Input
 ```markdown
-element SFI-MVLEM-3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -width {Widths} -mat {Material_tags} 
-<-CoR c> <-thickMod tMod> <-Poisson Nu>
+element MVLEM-3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {Widths} -rho {Reinforcing_ratios} 
+-matConcrete {Concrete_tags} -matSteel {Steel_tags} -matShear {Shear_tag} <-CoR c> <-thickMod tMod> <-Poisson Nu>
 ```
 
 | parameter | description |
@@ -20,7 +20,10 @@ element SFI-MVLEM-3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -wid
 | m | number of element macro-fibers|
 | {Thicknesses} | array of m macro-fiber thicknesses|
 | {Widths} | array of m macro-fiber widths |
-| {Material_tags}| array of m macro-fiber nDMaterial [FSAM](https://opensees.berkeley.edu/wiki/index.php/FSAM_-_2D_RC_Panel_Constitutive_Behavior) tags|
+| {Reinforcing_ratios}| array of m reinforcing ratios corresponding to macro-fibers|
+| {Concrete_tags}	| array of m uniaxialMaterial tags for concrete |
+| {Steel_tags} |	array of m uniaxialMaterial tags for steel |
+| {Shear_tag}	| Tag of uniaxialMaterial for shear material |
 | c | location of center of rotation from the base (optional, default = 0.4 (recommended))|
 | tMod	| thickness modifier for out-of-plane bending (optional, default = 1.0)|
 | Nu | Poisson ratio for out-of-plane bending (optional, default = 0.25)|
@@ -30,7 +33,7 @@ element SFI-MVLEM-3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -wid
 
 ## Example
 
-Specimen TUB (Beyer et al. 2008) is analyzed using the SFI-MVLEM-3D.
+Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM-3D.
 
 ![TUB](https://user-images.githubusercontent.com/53920372/94061732-a009a900-fd9a-11ea-8d28-2ae4981326f6.JPG)
 **Figure 2: MVLEM-3D Model of specimen TUB**
