@@ -38,6 +38,9 @@ Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM-3D.
 ![MVLEM-3D-TUB](https://user-images.githubusercontent.com/53920372/94331607-ad818780-ff82-11ea-8163-fa8108a2f7e0.PNG)
 **Figure 2: MVLEM-3D Model of specimen TUB**
 
+![TUB_LD](https://user-images.githubusercontent.com/53920372/94853227-f0f35000-03df-11eb-8e68-f1f221a9086d.JPG)
+**Figure 3: Experimental vs. MVLEM-3D load-deforamtion response of specimen TUB**
+
 ## References
 
 K. Kolozvari, K. Kalbasi, K. Orakcal, L. M. Massone & J. W. Wallace (in review), "Three-dimensional model for nonlinear analysis of slender flanged reinforced
