@@ -43,8 +43,6 @@ Figure 3 compares experimentally measured and analytically predicted load deform
 ![TUB_LD](https://user-images.githubusercontent.com/53920372/94853227-f0f35000-03df-11eb-8e68-f1f221a9086d.JPG)
 **Figure 3: Experimental vs. MVLEM-3D load-deforamtion response of specimen TUB**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 ## References
 
 K. Kolozvari, K. Kalbasi, K. Orakcal, L. M. Massone & J. W. Wallace (in review), "Three-dimensional model for nonlinear analysis of slender flanged reinforced
