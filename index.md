@@ -33,10 +33,12 @@ element MVLEM-3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {W
 
 ## Example
 
-Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM-3D.
+Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM-3D. Figure 2 shows the photo of the test specimen and the MVLEM-3D model of the specimen.
 
 ![MVLEM-3D-TUB](https://user-images.githubusercontent.com/53920372/94331607-ad818780-ff82-11ea-8163-fa8108a2f7e0.PNG)
 **Figure 2: MVLEM-3D Model of specimen TUB**
+
+Figure 3 compares experimentally measured and analytically predicted load deformation behavior of the specimen TUB in E-W, N-S, and diagonal loading directions. The model provides accurate predictions of the lateral load capacity and the stiffness under cyclic loading in loading directions parallel to the principal axes of the cross-section (E-W, N-S direction). Analysis results overestimate the lateral load capacity in diagonal loading directions due to plane-sections-remain-plane assumption implemented in the model formulation that cannot capture pronounced shear lag effect observed in the test specimen. 
 
 ![TUB_LD](https://user-images.githubusercontent.com/53920372/94853227-f0f35000-03df-11eb-8e68-f1f221a9086d.JPG)
 **Figure 3: Experimental vs. MVLEM-3D load-deforamtion response of specimen TUB**
