@@ -5,7 +5,10 @@ J. W. Wallace, UCLA<br/>
 
 ## Description
 
-The MVLEM-3D model is an extension of the two-dimensional, two-node Multiple-Vertical-Line-Element-Model ([MVLEM](https://opensees.berkeley.edu/wiki/index.php/MVLEM_-_Multiple-Vertical-Line-Element-Model_for_RC_Walls)). The baseline MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended to a three-dimensional model formulation by applying geometric transformation of the element degrees of freedom that convert it into a four-node element formulation, as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory. 
+The MVLEM-3D model (Figure 1a) is a three-dimenaional four-node element for nonlinear analysis of flexure-controlled non-rectangular reinforced concrete walls subjected to multidirectional loading. The model is an extension of the two-dimensional, two-node Multiple-Vertical-Line-Element-Model ([MVLEM](https://opensees.berkeley.edu/wiki/index.php/MVLEM_-_Multiple-Vertical-Line-Element-Model_for_RC_Walls)). The baseline MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended to a three-dimensional model formulation by applying geometric transformation of the element degrees of freedom that convert it into a four-node element formulation (Figure 1b), as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory (Figure 1c). 
+
+![MVLEM-3D](https://user-images.githubusercontent.com/53920372/94331495-b6be2480-ff81-11ea-916b-949cd5b112e4.PNG)
+**Figure 1: MVLEM-3D Element Formulation**
 
 ### MVLEM-3D Input
 ```markdown
@@ -27,9 +30,6 @@ element MVLEM-3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {W
 | c | location of center of rotation from the base (optional, default = 0.4 (recommended))|
 | tMod	| thickness modifier for out-of-plane bending (optional, default = 1.0)|
 | Nu | Poisson ratio for out-of-plane bending (optional, default = 0.25)|
-
-![MVLEM-3D](https://user-images.githubusercontent.com/53920372/94331495-b6be2480-ff81-11ea-916b-949cd5b112e4.PNG)
-**Figure 1: MVLEM-3D Element Formulation**
 
 ## Example
 
