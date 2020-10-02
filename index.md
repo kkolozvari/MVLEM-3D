@@ -41,7 +41,15 @@ Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM-3D.
 ![TUB_LD](https://user-images.githubusercontent.com/53920372/94853227-f0f35000-03df-11eb-8e68-f1f221a9086d.JPG)
 **Figure 3: Experimental vs. MVLEM-3D load-deforamtion response of specimen TUB**
 
-<video src="video.mp4" poster="poster.jpg" width="320" height="200" controls preload></video> 
+{% if include.width != '' %}
+  <div style="width: {{include.width}}; margin:0 auto;">
+{% else %}
+  <div>
+{% endif %}
+  <div class="ytcontainer">
+    <iframe class="yt" allowfullscreen src="https://www.youtube.com/embed/{{include.id}}"></iframe>
+  </div>
+</div>
 
 ## References
 
