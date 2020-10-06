@@ -45,5 +45,5 @@ Figure 3 compares experimentally measured and analytically predicted load deform
 
 ## References
 
-K. Kolozvari, K. Kalbasi, K. Orakcal, L. M. Massone & J. W. Wallace (in review), "Three-dimensional model for nonlinear analysis of slender flanged reinforced
+K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (in review), "Three-dimensional model for nonlinear analysis of slender flanged reinforced
 concrete walls", Engineering Structures.
