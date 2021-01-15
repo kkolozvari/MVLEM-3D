@@ -5,10 +5,10 @@ J. W. Wallace, UCLA<br/>
 
 ## Description
 
-The MVLEM-3D model (Figure 1a) is a three-dimenaional four-node element with 24 DOFs for nonlinear analysis of flexure-controlled non-rectangular reinforced concrete walls subjected to multidirectional loading. The model is an extension of the two-dimensional, two-node Multiple-Vertical-Line-Element-Model ([MVLEM](https://opensees.berkeley.edu/wiki/index.php/MVLEM_-_Multiple-Vertical-Line-Element-Model_for_RC_Walls)). The baseline MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended to a three-dimensional model formulation by: 1) applying geometric transformation of the element in-plane degrees of freedom that convert it into a four-node element formulation (Figure 1b), as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory (Figure 1c). The in-plane and the out-of-plane element behaviors are uncoupled in the present model.
+The MVLEM_3D model (Figure 1a) is a three-dimenaional four-node element with 24 DOFs for nonlinear analysis of flexure-controlled non-rectangular reinforced concrete walls subjected to multidirectional loading. The model is an extension of the two-dimensional, two-node Multiple-Vertical-Line-Element-Model ([MVLEM](https://opensees.berkeley.edu/wiki/index.php/MVLEM_-_Multiple-Vertical-Line-Element-Model_for_RC_Walls)). The baseline MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended to a three-dimensional model formulation by: 1) applying geometric transformation of the element in-plane degrees of freedom that convert it into a four-node element formulation (Figure 1b), as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory (Figure 1c). The in-plane and the out-of-plane element behaviors are uncoupled in the present model.
 
 ![MVLEM_3D](https://user-images.githubusercontent.com/53920372/94961032-c0c3b400-04a8-11eb-8880-319b5ba4c4cc.JPG)
-**Figure 1: MVLEM-3D element formulation**
+**Figure 1: MVLEM_3D element formulation**
 
 ### MVLEM_3D Input
 ```markdown
@@ -33,15 +33,15 @@ element MVLEM_3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {W
 
 ## Example
 
-Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM-3D. Figure 2a shows the photo of the test specimen and Figure 2b-c show the MVLEM-3D model of specimen TUB.
+Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM_3D. Figure 2a shows the photo of the test specimen and Figure 2b-c show the MVLEM_3D model of specimen TUB.
 
 ![TUB](https://user-images.githubusercontent.com/53920372/94961047-c6b99500-04a8-11eb-879a-7c8db003830b.JPG)
-**Figure 2: MVLEM-3D model of specimen TUB**
+**Figure 2: MVLEM_3D model of specimen TUB**
 
 Figure 3 compares experimentally measured and analytically predicted load deformation behavior of the specimen TUB in E-W, N-S, and diagonal loading directions. The model provides accurate predictions of the lateral load capacity and the stiffness under cyclic loading in loading directions parallel to the principal axes of the cross-section (E-W, N-S direction). Analysis results overestimate the lateral load capacity in diagonal loading directions due to plane-sections-remain-plane assumption implemented in the model formulation that cannot capture pronounced shear lag effect observed in the test specimen. 
 
 ![TUB_LD](https://user-images.githubusercontent.com/53920372/94853227-f0f35000-03df-11eb-8e68-f1f221a9086d.JPG)
-**Figure 3: Experimental vs. MVLEM-3D load-deforamtion response of specimen TUB**
+**Figure 3: Experimental vs. MVLEM_3D load-deforamtion response of specimen TUB**
 
 ## References
 
