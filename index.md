@@ -13,7 +13,7 @@ The MVLEM_3D model (Figure 1a) is a three-dimenaional four-node element with 24 
 ### MVLEM_3D Input
 ```markdown
 element MVLEM_3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {Widths} -rho {Reinforcing_ratios} 
--matConcrete {Concrete_tags} -matSteel {Steel_tags} -matShear {Shear_tag} <-CoR c> <-thickMod tMod> <-Poisson Nu>
+-matConcrete {Concrete_tags} -matSteel {Steel_tags} -matShear {Shear_tag} <-CoR c> <-thickMod tMod> <-Poisson Nu> <-Density Dens>
 ```
 
 | parameter | description |
@@ -30,6 +30,7 @@ element MVLEM_3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {W
 | c | location of center of rotation from the base (optional, default = 0.4 (recommended))|
 | tMod	| thickness modifier for out-of-plane bending (optional, default = 1.0)|
 | Nu | Poisson ratio for out-of-plane bending (optional, default = 0.25)|
+| Dens | Density (optional, default = 0.0)|
 
 ## Example
 
