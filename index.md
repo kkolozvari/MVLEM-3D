@@ -7,7 +7,7 @@ J. W. Wallace, UCLA<br/>
 
 The MVLEM_3D model (Figure 1a) is a three-dimenaional four-node element with 24 DOFs for nonlinear analysis of flexure-controlled non-rectangular reinforced concrete walls subjected to multidirectional loading. The model is an extension of the two-dimensional, two-node Multiple-Vertical-Line-Element-Model ([MVLEM](https://opensees.berkeley.edu/wiki/index.php/MVLEM_-_Multiple-Vertical-Line-Element-Model_for_RC_Walls)). The baseline MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended to a three-dimensional model formulation by: 1) applying geometric transformation of the element in-plane degrees of freedom that convert it into a four-node element formulation (Figure 1b), as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory (Figure 1c). The in-plane and the out-of-plane element behaviors are uncoupled in the present model.
 
-![3D_model_v2](https://user-images.githubusercontent.com/53920372/104969609-d1d3fa80-599d-11eb-85e8-7dbd05ece8ee.jpg)
+![3D_model_v2 2](https://user-images.githubusercontent.com/53920372/104969707-11024b80-599e-11eb-9acd-f16bd9572c24.jpg)
 **Figure 1: MVLEM_3D element formulation**
 
 ### MVLEM_3D Input
