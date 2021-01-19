@@ -42,7 +42,7 @@ Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM_3D. Figure 2a shows
 ![TUB](https://user-images.githubusercontent.com/53920372/94961047-c6b99500-04a8-11eb-879a-7c8db003830b.JPG)
 **Figure 2: MVLEM_3D model of specimen TUB**
 
-![TUB Animation](master\TUB_MVLEM_3D.gif)
+![TUB Animation](master/TUB_MVLEM_3D.gif)
 
 **Figure 3: Animation of specimen TUB analyzed with MVLEM_3D element. Specimen is subjected to multidirectional loading that corresponds to the test.**
 
