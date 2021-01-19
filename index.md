@@ -1,5 +1,3 @@
-youtubeId: wqY3MAjPht0
-
 [K. Kolozvari](mailto:kkolozvari@fullerton.edu), CSU Fullerton<br/>
 K. Kalbasi, UCLA<br/>
 K. Orakcal, Bogazici University<br/>
@@ -46,7 +44,7 @@ Figure 3 compares experimentally measured and analytically predicted load deform
 ![TUB_LD](https://user-images.githubusercontent.com/53920372/94853227-f0f35000-03df-11eb-8e68-f1f221a9086d.JPG)
 **Figure 3: Experimental vs. MVLEM_3D load-deforamtion response of specimen TUB**
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include youtubePlayer.html id=page.wqY3MAjPht0 %}
 
 ## References
 
