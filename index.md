@@ -1,3 +1,6 @@
+# MVLEM-3D
+3-D element for flexure-dominated RC walls
+
 [K. Kolozvari](mailto:kkolozvari@fullerton.edu), CSU Fullerton<br/>
 K. Kalbasi, UCLA<br/>
 K. Orakcal, Bogazici University<br/>
@@ -34,15 +37,19 @@ element MVLEM_3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {W
 
 ## Example
 
-Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM_3D. Figure 2a shows the photo of the test specimen and Figure 2b-c show the MVLEM_3D model of specimen TUB.
+Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM_3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the MVLEM_3D model of specimen TUB.
 
 ![TUB](https://user-images.githubusercontent.com/53920372/94961047-c6b99500-04a8-11eb-879a-7c8db003830b.JPG)
 **Figure 2: MVLEM_3D model of specimen TUB**
 
-Figure 3 compares experimentally measured and analytically predicted load deformation behavior of the specimen TUB in E-W, N-S, and diagonal loading directions. The model provides accurate predictions of the lateral load capacity and the stiffness under cyclic loading in loading directions parallel to the principal axes of the cross-section (E-W, N-S direction). Analysis results overestimate the lateral load capacity in diagonal loading directions due to plane-sections-remain-plane assumption implemented in the model formulation that cannot capture pronounced shear lag effect observed in the test specimen. 
+![TUB Animation](TUB_MVLEM_3D.gif)
+
+**Figure 3: Animation of specimen TUB analyzed with MVLEM_3D element. Specimen is subjected to multidirectional loading that corresponds to the test.**
+
+Figure 4 compares experimentally measured and analytically predicted load deformation behavior of the specimen TUB in E-W, N-S, and diagonal loading directions. The model provides accurate predictions of the lateral load capacity and the stiffness under cyclic loading in loading directions parallel to the principal axes of the cross-section (E-W, N-S direction). Analysis results overestimate the lateral load capacity in diagonal loading directions due to plane-sections-remain-plane assumption implemented in the model formulation that cannot capture pronounced shear lag effect observed in the test specimen. 
 
 ![TUB_LD](https://user-images.githubusercontent.com/53920372/94853227-f0f35000-03df-11eb-8e68-f1f221a9086d.JPG)
-**Figure 3: Experimental vs. MVLEM_3D load-deforamtion response of specimen TUB**
+**Figure 4: Experimental vs. MVLEM_3D load-deforamtion response of specimen TUB**
 
 ## References
 
