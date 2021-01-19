@@ -1,5 +1,5 @@
 ---
-youtubeId: wqY3MAjPht0&feature=youtu.be
+youtubeId: wqY3MAjPht0
 ---
 
 [K. Kolozvari](mailto:kkolozvari@fullerton.edu), CSU Fullerton<br/>
