@@ -46,8 +46,6 @@ Figure 3 compares experimentally measured and analytically predicted load deform
 
 ![DemoTUB](Deko.gif)
 
-{% include youtubePlayer.html id=page.wqY3MAjPht0 %}
-
 ## References
 
 K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (2021), "Three-dimensional model for nonlinear analysis of slender flanged reinforced
