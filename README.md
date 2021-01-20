@@ -39,7 +39,7 @@ element MVLEM_3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {W
 
 Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM_3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the MVLEM_3D model of specimen TUB.
 
-![TUB](https://user-images.githubusercontent.com/53920372/94961047-c6b99500-04a8-11eb-879a-7c8db003830b.JPG)
+![3D_model_2](https://user-images.githubusercontent.com/53920372/105111249-58a7d680-5a75-11eb-8e80-094fd2807caa.jpg)
 **Figure 2: MVLEM_3D model of specimen TUB**
 
 ![TUB Animation](TUB_MVLEM_3D.gif)
