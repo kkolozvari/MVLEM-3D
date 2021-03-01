@@ -31,10 +31,23 @@ element MVLEM_3D eleTag iNode jNode kNode lNode m -thick {Thicknesses} -width {W
 | {Steel_tags} |	array of m uniaxialMaterial tags for steel |
 | {Shear_tag}	| Tag of uniaxialMaterial for shear material |
 | c | location of center of rotation from the base (optional, default = 0.4 (recommended))|
-| tMod	| thickness modifier for out-of-plane bending (optional, default = 1.0)|
+| tMod	| thickness modifier for out-of-plane bending (optional, default = 0.63, equivalent to 0.25Ig for out-of-plane bending)|
 | Nu | Poisson ratio for out-of-plane bending (optional, default = 0.25)|
 | Dens | Density (optional, default = 0.0)|
 
+### Recorders
+
+The following recorders are available with the MVLEM_3D element.
+
+| recorder | description |
+|----------|------------|
+| globalForce | Element global forces|
+| Curvature | Element curvature|
+| Shear_Force_Deformation | Element shear force-deformation relationship|
+| Fiber_Strain | Vertical strains in m fibers along the cross-section|
+| Fiber_Stress_Concrete | Vertical concrete stresses in m fibers along the cross-section|
+| Fiber_Stress_Steel | Vertical steel stresses in m fibers along the cross-section|
+   
 ## Example
 
 Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM_3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the MVLEM_3D model of specimen TUB.
