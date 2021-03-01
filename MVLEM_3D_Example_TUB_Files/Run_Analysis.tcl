@@ -57,6 +57,7 @@ puts "Gravity load applied successfully";
 
 loadConst -time 0.0
 
+set StepsPerSequence 200;
 set load_step 1;
 set reSolution 0;
 set Ncycles 1;
@@ -436,6 +437,8 @@ set SequenceNum 124
 set PhX "-692627";set PhY "0";
 source ForcePush.tcl
 
+puts "Analysis completed successfully";
+
 # Print the state at control node
 print node $IDctrlNode
 
@@ -445,11 +448,7 @@ set timeMinutes [expr ($timeSeconds/60)];
 set timeHours [expr ($timeSeconds/3600)];
 set timeMinutes [expr ($timeMinutes - $timeHours*60)];
 set timeSeconds [expr ($timeSeconds - $timeMinutes*60 - $timeHours*3600)];
-puts "
-----------------------------------";
-puts "
-";
+puts "----------------------------------";
 puts "TOTAL TIME TAKEN $timeHours:$timeMinutes:$timeSeconds";
-puts "Initial stiffness used $reSolution times"
-puts "
-----------------------------------";
+puts "Initial stiffness used in $reSolution steps out of [expr $SequenceNum*$StepsPerSequence]."
+puts "----------------------------------";

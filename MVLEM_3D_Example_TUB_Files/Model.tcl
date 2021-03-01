@@ -1,7 +1,13 @@
 # --------------------------------------------------------
 # Created by: Kristijan Kolozvari
-# Model generating using CEO Software (Convert ETABS to OpenSees, ceostructural.com)
+# Model generating using CEO Software (Convert ETABS to OpenSees), www.ceostructural.com
 # --------------------------------------------------------
+
+# Specimen TUB tested by Beyer et al. (2008) as analyzed by Kolozvari et al. (2021)
+
+# References:
+# K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (2021), "Three-Dimensional Model for Nonlinear Analysis of Slender Flanged Reinforced Concrete Walls," Engineering Structures.
+# K. Beyer, A. Dazio, MJN Priestley (2008), "Quasi-Static Cyclic Tests of Two U-Shaped Reinforced Concrete Walls," Journal of Earthquake Engineering, 12 (7): 1023-1053. 
 
 wipe all
 
@@ -96,8 +102,8 @@ fix 33 1 1 1 0 0 0
 # ------------------------------
 # Define materials
 # ------------------------------
-# Elastic Materials
-set k 0.5;
+# Elastic Materials - Shear Stiffness of the wall
+set k 0.025; # used 2.5% of gross uncracked shear stiffness per Kolozvari et al. (2021), Eng. Structures
 uniaxialMaterial Elastic 1 [expr $k*314705];
 uniaxialMaterial Elastic 2 [expr $k*377646];
 
