@@ -2,7 +2,7 @@
 3-D element for flexure-dominated RC walls
 
 [K. Kolozvari](mailto:kkolozvari@fullerton.edu), CSU Fullerton<br/>
-K. Kalbasi, UCLA<br/>
+K. Kalbasi, CSU Fullerton<br/>
 K. Orakcal, Bogazici University<br/>
 J. W. Wallace, UCLA<br/>
 
