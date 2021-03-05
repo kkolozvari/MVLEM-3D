@@ -50,7 +50,7 @@ The following recorders are available with the MVLEM_3D element.
    
 ## Example
 
-Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM_3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the MVLEM_3D model of specimen TUB. **To access example files click on "View on Github".**
+Specimen TUB (Beyer et al. 2008) is analyzed using the MVLEM_3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the MVLEM_3D model of specimen TUB. **To access example files click on "View on Github" at the top of the page.**
 
 ![3D_model_2](https://user-images.githubusercontent.com/53920372/105111249-58a7d680-5a75-11eb-8e80-094fd2807caa.jpg)
 **Figure 2: MVLEM_3D model of specimen TUB**
