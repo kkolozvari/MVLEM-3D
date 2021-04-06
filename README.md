@@ -47,6 +47,10 @@ The following recorders are available with the MVLEM_3D element.
 | Fiber_Strain | Vertical strains in m fibers along the cross-section|
 | Fiber_Stress_Concrete | Vertical concrete stresses in m fibers along the cross-section|
 | Fiber_Stress_Steel | Vertical steel stresses in m fibers along the cross-section|
+
+### OpenSeesPy Documentation
+   
+OpenSeesPy user documetation for the MVLEM_3D element can be accessed from [HERE](https://openseespydoc.readthedocs.io/en/latest/src/MVLEM_3D.html).
    
 ## Example
 
